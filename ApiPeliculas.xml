@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiPeliculas</name>
+    </assembly>
+    <members>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategorias">
+            <summary>
+            Obtener todas las categorias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategoria(System.Int32)">
+            <summary>
+            Obtener una categoria individual
+            </summary>
+            <param name="categoriaId">Este es el id de la categoria, el cual se va a buscar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.CrearCategoria(ApiPeliculas.Models.DTOs.CategoriaDTO)">
+            <summary>
+            Crea una nueva categoria
+            </summary>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.ActualizarCategoria(System.Int32,ApiPeliculas.Models.DTOs.CategoriaDTO)">
+            <summary>
+            Actualizar una categoria existente
+            </summary>
+            <param name="categoriaId"></param>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.BorrarCategoria(System.Int32)">
+            <summary>
+            Borrar una categoria existente
+            </summary>
+            <param name="categoriaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.PeliculasController.GetPeliculas">
+            <summary>
+            Obtener todas las peliculas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.PeliculasController.GetPeliculasEnCategoria(System.Int32)">
+            <summary>
+            Obtener todas las peliculas de una categoria
+            </summary>
+            <param name="categoriaId">Id de referencia de la categoria</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.PeliculasController.GetPelicula(System.Int32)">
+            <summary>
+            Obtener una pelicula 
+            </summary>
+            <param name="PeliculaId">Id de la pelicula a buscar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.PeliculasController.CrearPelicula(ApiPeliculas.Models.DTOs.PeliculaCreateDTO)">
+            <summary>
+            Crea una nueva pelicula
+            </summary>
+            <param name="PeliculaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.PeliculasController.ActualizarPelicula(System.Int32,ApiPeliculas.Models.DTOs.PeliculaUpdateDTO)">
+            <summary>
+            Actualizar una pelicula
+            </summary>
+            <param name="PeliculaId"></param>
+            <param name="PeliculaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.PeliculasController.BorrarPelicula(System.Int32)">
+            <summary>
+            Borra una pelicula existente
+            </summary>
+            <param name="PeliculaId">Id de la pelicula a borrar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.PeliculasController.Buscar(System.String)">
+            <summary>
+            Busca y devuelve una pelicula existente
+            </summary>
+            <param name="nombre">Nombre de la pelicula a buscar</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.UsuariosController.GetUsuarios">
+            <summary>
+            Obtener usuarios 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.UsuariosController.GetUsuario(System.Int32)">
+            <summary>
+            Obtener un usuario
+            </summary>
+            <param name="userId">Id del usuario a obtener</param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.UsuariosController.Registro(ApiPeliculas.Models.DTOs.UsuarioAuthDTO)">
+            <summary>
+            Registrar un nuevo usuario
+            </summary>
+            <param name="usuarioAuthDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.UsuariosController.Login(ApiPeliculas.Models.DTOs.UsuarioAuthLoginDTO)">
+            <summary>
+            Acceso/Autorizacion usuario
+            </summary>
+            <param name="usuarioAuthLoginDTO"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

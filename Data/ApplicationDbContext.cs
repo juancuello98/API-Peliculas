@@ -21,6 +21,11 @@ namespace ApiPeliculas.Data
         // poner el mismo nombre, categoria se instancia en categoria
         public DbSet<Categoria> Categoria { get; set; }
 
+        // Esto del DbSet se tiene que hacer siempre antes del add-migration y el update-database
+        public DbSet<Pelicula> Pelicula { get; set; }
+
+        public DbSet<Usuario> Usuario { get; set; }
+
 
     }
 }
